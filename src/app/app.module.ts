@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 // module
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -14,6 +15,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserAnimationsModule,
+    MaterialModule,
     BrowserModule,
     FormsModule,
     HttpModule
