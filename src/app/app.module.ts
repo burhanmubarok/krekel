@@ -10,11 +10,13 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserAnimationsModule,
