@@ -2,7 +2,7 @@
   "short_name": "Krekel",
   "name": "Krekel",
   "icons": [{
-    "src": "assets/smallicon.png",
+    "src": "assets/icon.png",
     "sizes": "192x192",
     "type": "image/png"
   }],
