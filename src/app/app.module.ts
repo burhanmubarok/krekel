@@ -11,12 +11,14 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    NavigationComponent
+    NavigationComponent,
+    ListComponent
   ],
   imports: [
     BrowserAnimationsModule,
