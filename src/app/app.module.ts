@@ -7,12 +7,14 @@ import { HttpModule } from '@angular/http';
 import 'hammerjs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ListComponent } from './list/list.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     NavigationComponent,
     ListComponent,
-    FooterComponent
+    FooterComponent,
+    ContentComponent
   ],
   imports: [
     BrowserAnimationsModule,
     MaterialModule,
+    FlexLayoutModule,
     BrowserModule,
     FormsModule,
     HttpModule
