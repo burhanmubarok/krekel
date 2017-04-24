@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cakes.component.css']
 })
 export class CakesComponent implements OnInit {
-  images: any;
+  products: any;
 
   constructor() {
-    this.images = [104, 105, 106, 107, 57, 58, 59, 64]
+    this.products =   [
+    {image: '105', category: 'Whole Cakes'},
+    {image: '104', category: 'Macarons'},
+    {image: '106', category: 'Ice Cream Cakes'},
+    {image: '107', category: 'Hampers'},
+    {image: '57', category: 'Chocolate'},
+    {image: '58', category: 'Cookies'},
+    {image: '59', category: 'Wedding Cakes'},
+    {image: '64', category: 'French Pastries'},
+    ]
    }
 
   ngOnInit() {

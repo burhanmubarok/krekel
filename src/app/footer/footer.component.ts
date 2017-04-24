@@ -12,7 +12,7 @@ export class FooterComponent implements OnInit {
 
   constructor() { 
     this.year = new Date().getFullYear()
-    this.companyName = 'Krekel Bakery'
+    this.companyName = 'Krekel'
     this.author = '@burhanmubarok'
   }
 
