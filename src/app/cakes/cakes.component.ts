@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cakes.component.css']
 })
 export class CakesComponent implements OnInit {
+  images: any;
 
-  constructor() { }
+  constructor() {
+    this.images = [104, 105, 106, 107, 57, 58, 59, 64]
+   }
 
   ngOnInit() {
   }

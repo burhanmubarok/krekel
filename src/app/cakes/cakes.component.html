@@ -1,3 +1,5 @@
-<p>
-  cakes works!
-</p>
+<md-grid-list cols="4" gutterSize="8px">
+  <md-grid-tile *ngFor="let image of images">
+    <img src="./../../assets/img/{{image}}.jpg" alt="">
+  </md-grid-tile>
+</md-grid-list>
