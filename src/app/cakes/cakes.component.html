@@ -1,5 +1,6 @@
 <md-grid-list cols="4" gutterSize="8px">
-  <md-grid-tile *ngFor="let image of images">
-    <img src="./../../assets/img/{{image}}.jpg" alt="">
+  <md-grid-tile *ngFor="let product of products">
+    <img src="assets/img/{{product.image}}.jpg" alt="">
+    <md-grid-tile-footer><h1>{{[product.category]}}</h1></md-grid-tile-footer>
   </md-grid-tile>
 </md-grid-list>
