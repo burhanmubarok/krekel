@@ -12,13 +12,15 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ListComponent } from './list/list.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     NavigationComponent,
-    ListComponent
+    ListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserAnimationsModule,
