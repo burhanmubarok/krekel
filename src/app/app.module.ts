@@ -14,7 +14,6 @@ import { MenuComponent } from './menu/menu.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ListComponent } from './list/list.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +21,7 @@ import { ContentComponent } from './content/content.component';
     MenuComponent,
     NavigationComponent,
     ListComponent,
-    FooterComponent,
-    ContentComponent
+    FooterComponent
   ],
   imports: [
     BrowserAnimationsModule,
